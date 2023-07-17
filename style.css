@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ae9cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 50px 30px 50px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.query{
+    padding: 5px;
+    width: 75%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
+
+.button{
+    padding: 10px 10px;
+    width: 25%;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ae9cff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.no_input{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.word{
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 0 0 10px 0;
+}
+
+.details{
+    font-size: 13px;
+    /* padding: 0 10px 0 10px; */
+    display: flex;
+    color: gray;
+    margin-top: -10px;
+    align-items: center;
+}
+
+.details .phonetic{
+    margin-left: 10px;
+}
+
+.word-meaning{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 200px;
+
+}
+
+.word-example{
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    border-left: 5px solid #ae9cff;
+    width: 300px;
+}
